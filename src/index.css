@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.react-modal-overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1rem;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.react-model-content{
+    width: 100%;
+    max-width: 588px;
+    background-color: #F0F2F5;
+    height: 576px;
+
+    border-radius: 5px;
+    padding: 3rem;
+    position: relative;
+}
